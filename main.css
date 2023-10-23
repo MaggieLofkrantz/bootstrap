@@ -1,3 +1,16 @@
+:root {
+  --bs-breakpoint-xs: 0;
+  --bs-breakpoint-sm: 576px;
+  --bs-breakpoint-md: 768px;
+  --bs-breakpoint-lg: 992px;
+  --bs-breakpoint-xl: 1200px;
+  --bs-breakpoint-xxl: 1400px;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+} 
+
 #hero {
   background-image: url(../images/abstract.jpg);
   background-position: center center;
@@ -8,3 +21,9 @@
 #hero .d-flex{
   height: 70vh;
 }
+
+header {
+  display: block;
+  background-color: black;
+}
+
